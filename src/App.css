@@ -1,0 +1,19 @@
+.App {
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.TodoListItem {
+  display: flex;
+}
+
+.TodoListItem-content {
+  flex: 1;
+  line-height: 36px;
+}
+
+.TodoListItem-complete {
+  display: inline-block;
+  margin-right: 20px;
+}
