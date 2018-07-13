@@ -39,22 +39,11 @@ class App extends React.Component {
 
   handleSubmit = () => {
     this.setState ({ content: this.state.item.content },() =>{
-    console.log('this.state.item.content');
-    //this.setState({items:this.state.items});
-  })
-      //this.setState ({ complete: item.complete }),
-      //this.setState ({ order: item.order }),   
-      }; 
+    })
+  }; 
   
   handleChange = () => {
     let { onUpdateItem, id, item } = this.props;
-    //item.complete = !item.complete;
-
-    //this.setState({ complete: item.complete }, () => {
-      //setTimeout(() => {
-      //  onUpdateItem(id, item);
-      //}
-   // });
   };
 
   removeItem = (index, item) => {
